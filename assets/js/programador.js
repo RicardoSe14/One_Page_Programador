@@ -85,3 +85,67 @@ $(".img-top2").mouseenter(function(){
 $(".img-top2").mouseleave(function(){
     $('.img-top2').fadeTo(300, 0);
 });
+
+$(".img-bottom3").mouseenter(function(){
+    $('.img-top3').fadeTo(300, 1);
+});
+
+$(".img-bottom3").mouseleave(function(){
+    $('.img-top3').show(100);
+});
+
+$(".img-top3").mouseenter(function(){
+    $('.img-top3').fadeTo(300, 1);
+});
+
+$(".img-top3").mouseleave(function(){
+    $('.img-top3').fadeTo(300, 0);
+});
+
+$(".img-bottom4").mouseenter(function(){
+    $('.img-top4').fadeTo(300, 1);
+});
+
+$(".img-bottom4").mouseleave(function(){
+    $('.img-top4').show(100);
+});
+
+$(".img-top4").mouseenter(function(){
+    $('.img-top4').fadeTo(300, 1);
+});
+
+$(".img-top4").mouseleave(function(){
+    $('.img-top4').fadeTo(300, 0);
+});
+
+$(".img-bottom5").mouseenter(function(){
+    $('.img-top5').fadeTo(300, 1);
+});
+
+$(".img-bottom5").mouseleave(function(){
+    $('.img-top5').show(100);
+});
+
+$(".img-top5").mouseenter(function(){
+    $('.img-top5').fadeTo(300, 1);
+});
+
+$(".img-top5").mouseleave(function(){
+    $('.img-top5').fadeTo(300, 0);
+});
+
+$(".img-bottom6").mouseenter(function(){
+    $('.img-top6').fadeTo(300, 1);
+});
+
+$(".img-bottom6").mouseleave(function(){
+    $('.img-top6').show(100);
+});
+
+$(".img-top6").mouseenter(function(){
+    $('.img-top6').fadeTo(300, 1);
+});
+
+$(".img-top6").mouseleave(function(){
+    $('.img-top6').fadeTo(300, 0);
+});

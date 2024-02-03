@@ -417,6 +417,74 @@ h2 {
     overflow: hidden !important;
 }
 
+.img-bottom3 {
+    position: relative;
+    display: inline-block;
+    border: 0 !important;
+        z-index: 98;
+        overflow: hidden !important;
+
+}
+.img-top3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: hidden !important;
+}
+
+.img-bottom4 {
+    position: relative;
+    display: inline-block;
+    border: 0 !important;
+        z-index: 98;
+        overflow: hidden !important;
+
+}
+.img-top4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: hidden !important;
+}
+
+.img-bottom5 {
+    position: relative;
+    display: inline-block;
+    border: 0 !important;
+        z-index: 98;
+        overflow: hidden !important;
+
+}
+.img-top5 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: hidden !important;
+}
+
+.img-bottom6 {
+    position: relative;
+    display: inline-block;
+    border: 0 !important;
+        z-index: 98;
+        overflow: hidden !important;
+
+}
+.img-top6 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    overflow: hidden !important;
+}
+
 .card {
     border: 0 !important;
     overflow: hidden;
