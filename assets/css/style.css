@@ -99,23 +99,6 @@ h2 {
 
 
 
-
-.centro {
-    position: relative;
-    height: 1000px;
-    width: cover;
-    background-color: #fff9f9 !important;
-}
-
-.inicio {
-    position: absolute;
-    width: auto;
-    height: 100vh;
-  
-
-}
-
-
 .fa-folder-open {
     padding-top: 12px !important;
 }
@@ -541,3 +524,97 @@ h2 {
   .link2:hover::after {
     transform: scaleX(1);
   } 
+
+
+  .acerca {
+    background-color: rgb(13, 14, 14);
+  }
+
+  .acerca h1::after {
+    position: absolute;
+    content: "02";
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(201, 201, 201, 0.6);
+    z-index: -1;
+    font-size: 8rem;
+    justify-content: center !important;
+    font-size: 6rem;
+}
+
+.acerca h1 {
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-weight: 800 !important;
+    font-size: calc(2.5rem + 1.0vh) !important;
+    text-transform: capitalize;
+    z-index: 1;
+    color: rgb(255, 255, 255) !important;
+    display: inline-block;
+}
+
+.demi {
+    padding-top: 80px !important;
+}
+
+.descripcion{
+font-family: 'Montserrat', sans-serif;
+font-size: calc(0.6rem + 1.2vh) !important;
+font-weight: 500 !important;
+color: #aaaaaa !important;
+}
+
+.download{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(0.6rem + 1.2vh) !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+    letter-spacing: 0.09375rem !important;
+    position: relative;
+    padding-bottom: 5px !important;
+    }
+
+
+    .download::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 0.5px;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        transform-origin: bottom left;
+        transition: transform 0.25s ease-out;
+      }
+    
+      .download:hover::after {
+        transform: scaleX(1);
+      } 
+
+.sombra {
+    box-shadow: -17px -17px rgb(230, 78, 4);
+}
+
+.descripcion2{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-image: url(../img/Codigo.png);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill{
+    margin-right: 20px !important;
+	width: 35px !important;
+	height: auto !important;
+}
+
+.tecno {
+    background-color: rgb(13, 14, 14);
+}

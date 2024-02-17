@@ -5,7 +5,21 @@ $(document).ready(function(){
     $('.icono2').hide();
     $('.icono3').hide();
     $('.contenido').hide();
+    $('.fa-download').hide();
     });
+
+
+    $(".download").mouseenter(function(){
+        $('.fa-download ').css("padding-left", "10px");
+        $('.fa-download ').fadeTo(300, 1);
+    });
+
+$(".download").mouseleave(function(){
+    $('.fa-download ').fadeTo(300, 0);
+ $('.fa-download').hide(200);
+});
+
+
 
     $(".boton2").mouseenter(function(){
         $('.fa-folder-open').css("padding-left", "10px");
